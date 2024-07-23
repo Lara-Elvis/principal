@@ -1,0 +1,135 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    color: #333;
+}
+
+/* Header styles */
+header.menu {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img {
+    margin-right: 490px;
+}
+
+nav img:hover{
+    transition: 2s;
+    transform: rotate(25rad);
+}
+
+nav ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ol li {
+    position: relative;
+    margin-right: 15px;
+}
+
+nav ol li a {
+    color: rgb(3, 91, 44);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ol li a:hover {
+    color: #1b462e;
+    background-color: #726f6f;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+/* Submenu styles */
+nav ol li .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+}
+
+nav ol li .submenu li {
+    margin: 0;
+}
+
+nav ol li .submenu li a {
+    padding: 10px;
+    white-space: nowrap;
+}
+
+nav ol li .submenu li a:hover {
+    background-color: #555;
+}
+
+nav ol li:hover .submenu {
+    display: block;
+}
+
+.titulo_principal{
+    display: block;
+    width: 41%;
+    margin: 0 auto;
+    text-align: justify;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+footer{
+    display:flex;
+    margin-top: 30px;
+    background-color: #000000;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.linkedin{
+    order: 1;
+    margin-right: 8px;
+}
+
+footer p{
+    order: 2;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #090;
+}
+
+.github{
+    order: 3;
+    margin-left: 8px;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.imagenes-footer{
+    width: 30px;
+    margin-top: 1px;
+}
